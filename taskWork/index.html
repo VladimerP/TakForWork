@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Map</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/full.css">
+</head>
+<body>
+<ul class="decorListNone mains">
+    <li id="locationLatLng"><h3 class="marginZero">ISS is now located at:</h3></li>
+    <li id="currentTimeUTC"></li>
+    <li><div id="map"></div></li>
+    <li>
+        <ul class="decorListNone" id="astros">
+
+        </ul>
+    </li>
+</ul>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbz9SsxmvvV-mXRkRGTH8F4cENndiecOk&libraries=places&callback=initMap" async defer></script>
+<script src="js/js.js"></script>
+</body>
+</html>

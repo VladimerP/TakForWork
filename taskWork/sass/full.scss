@@ -1,0 +1,37 @@
+#map {
+  height: 400px;
+}
+
+html, body {
+  padding: 0;
+}
+
+.decorListNone{
+  list-style-type: none;
+}
+
+.marginZero{
+  margin: 0px;
+}
+
+.mains{
+  display: grid;
+  grid-template-columns: 600px 280px;
+  margin: 50px 20px 50px 50px;
+  li{
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 4px;
+    border: darkgray solid;
+    #astros{
+      padding: 0px;
+      .astorPeople{
+        margin-bottom: 4px;
+        padding: 5px;
+        margin-right: 0px;
+        border-radius: 4px;
+        border: darkgray solid;
+      }
+    }
+  }
+}
